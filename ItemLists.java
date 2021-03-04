@@ -12,7 +12,7 @@ public class ItemLists
 {
 	public static final DeferredRegister<Item> ITEMS = new DeferredRegister<Item>(ForgeRegistries.ITEMS, main.MOD_ID);
 	
-	public static final RegistryObject<Item> COPPER_ORE = ITEMS.register("copper_ore", () -> new Item(new Item.Properties().group(ItemGroup.MISC)));
+	public static final RegistryObject<Item> COPPER_MINERAL = ITEMS.register("copper_mineral", () -> new Item(new Item.Properties().group(ItemGroup.MISC)));
 	
 	public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust", () -> new Item(new Item.Properties().group(ItemGroup.MISC)));
 	
