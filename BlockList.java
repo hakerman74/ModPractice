@@ -13,7 +13,7 @@ public class BlockList
 {
 	public static final DeferredRegister<Block>	BLOCKS = new DeferredRegister<Block>(ForgeRegistries.BLOCKS, main.MOD_ID);
 	
-	public static final RegistryObject<Block> COPPER_MINERAL = BLOCKS.register("copper_mineral", () -> new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore", () -> new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0f).sound(SoundType.STONE)));
 	
 	public static final RegistryObject<Block> TUTORIAL_SLAB = BLOCKS.register("tutorial_slab", () -> new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0f).sound(SoundType.STONE)));
 	
